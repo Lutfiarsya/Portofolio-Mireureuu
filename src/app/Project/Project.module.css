@@ -1,0 +1,45 @@
+.Display{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+
+.Title{
+    display: flex;
+    flex-direction: column;
+    margin-right: 800px;
+}
+
+.Option{
+    margin-top: 50px;
+    width: 250px;
+    height: 30px;
+    font-size: 15px;
+    font-family: 'Exo 2', sans-serif;  
+    border-radius: 15px;
+    padding-left: 10px;
+    background-color: #FAF1E4;
+    box-shadow: 3px 3px 5px #BCA37F;
+}
+
+.Image{
+    margin: 30px 20px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px #FAF1E4;
+    transition: 0.5s;
+}
+
+.Gallery{
+    display: flexbox;
+    width: 90%;
+    margin: auto;
+    
+}
+
+.Image:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    box-shadow: 5px 5px 8px #FAF1E4;
+
+}

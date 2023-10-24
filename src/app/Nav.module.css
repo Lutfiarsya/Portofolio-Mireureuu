@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Gabarito:wght@500&family=Outfit:wght@300&family=Ubuntu:ital,wght@0,300;1,300&display=swap');
+
+
+
+.NavBar{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+
+.List{
+    display:flex;
+    flex-direction: row;
+    margin: auto;
+    margin-right: -5px;
+}
+
+
+.ListStyle{
+    margin: auto 30px;
+    text-decoration: none;    
+    list-style: none;
+    color: black;
+    font-size: 17px;
+    transition: 0.5s ease-out;
+    font-family: 'Outfit', sans-serif;
+    align-items: center;
+    text-align: center;
+    padding: 0px 20px;
+}
+
+.Logo{
+    margin: 5px 20px;
+    font-family: "Gabarito", sans-serif;
+    color: #113946;
+    letter-spacing: 5px;
+    transition: 0.5s;
+}
+
+.ListStyle:hover{
+    transform: scale(1.1);
+    letter-spacing: 1px;
+}
+
+.Logo:hover{
+    cursor: pointer;
+    letter-spacing: 8px;
+}

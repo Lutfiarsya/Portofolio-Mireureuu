@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Almarai:wght@700&family=Changa+One:ital@1&family=Exo+2:ital,wght@1,300&family=Gabarito:wght@500&family=Itim&family=Outfit:wght@300&family=Ubuntu:ital,wght@0,300;1,300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital@1&display=swap');
+
+
+.DisplayAbout{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.Border{
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 3px 3px 5px white;    
+}
+
+.DescriptionDisplay{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 150px;
+    margin-right: 400px;
+}
+
+.Description{
+    width: 400px;
+    font-size: 20px;
+    font-family:"Rubik", sans-serif;
+    margin-top: 20px;
+    letter-spacing: 2px;
+}
+
+.Image{
+    transform: scaleX(-1);
+    filter: drop-shadow(0px 0px 5px rgb(248, 207, 157));
+    transition: 0.5s;
+}
+
+.Subject{
+    margin: 5px 0px;
+    font-family: "Gabarito", sans-serif;
+    color: #113946;
+    letter-spacing: 3px;
+    transition: 0.5s;
+}
+
+.Subject:hover{
+    letter-spacing: 8px;
+    cursor: pointer;
+}
+
+
+.Image:hover{
+    cursor: pointer;
+    filter: drop-shadow(0px 0px 8px rgb(248, 207, 157));
+}
+
+.Icon{
+    display: flex;
+    flex-direction: row;
+}
+
+.Logo{
+    opacity: .3;
+    transition: 0.5s;
+    margin: 0px 10px;
+    transition: 0.5s;
+}
+
+.Logo:hover{
+    opacity: 1;
+    transform: scale(1.1);
+}
