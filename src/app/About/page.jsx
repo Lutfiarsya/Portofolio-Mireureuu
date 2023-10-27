@@ -13,7 +13,7 @@ import Gmail from '/src/app/Assets/gmail-logo.png'
 export default function About(){  
 return(
     <>
-    <body className={layout.body}>
+    <main className={layout.body}>
      <div className={layout.Container}>
         <div className={styles.DisplayAbout}>
             <div>
@@ -69,7 +69,7 @@ return(
             </div>
         </div>
      </div>
-    </body>
+    </main>
     </>
 
 );

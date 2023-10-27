@@ -26,7 +26,6 @@ export default function Option(){
       setSelectedImage(selectedValue);
     };
 
-   
     return(
         <>
         <div>

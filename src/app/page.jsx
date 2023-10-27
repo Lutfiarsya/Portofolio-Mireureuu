@@ -5,15 +5,13 @@ import Personal from "/src/app/Assets/Personal2.png"
 import Link from "next/link";
 
 
-function contact(){
-    location.href = "/Contact"
-}
+
 
 
 export default function Page(){
     return(
     <>
-        <body className={styles.body}>
+        <main className={styles.body}>
             <div className={styles.Container}>
                 <div className={styles.Home}>
                     <div className={styles.Text}>
@@ -32,7 +30,7 @@ export default function Page(){
                     />
                 </div>
             </div>
-        </body>
+        </main>
     </>
     );
 }

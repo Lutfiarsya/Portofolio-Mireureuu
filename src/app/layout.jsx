@@ -20,11 +20,11 @@ export default function RootLayout({ children }) {
             <div className={styles.List}>
               <Link className={styles.ListStyle} href={"/"} passHref>Home</Link>
               <Link className={styles.ListStyle} href={"/About"} passHref>About</Link>
-              <Link className={styles.ListStyle} href={"/Project"} passHref>Project</Link>
+              <Link className={styles.ListStyle} href={"/Project"} prefetch={false}>Project</Link>
               <Link className={styles.ListStyle} href={"/Contact"} passHref>Contact</Link>
             </div>
         </nav>
-        {children}
+        { children }
         </body>
     </html>
   )
